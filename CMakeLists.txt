@@ -24,7 +24,7 @@ PUBLIC
     Diligent-GraphicsTools
     Diligent-AssetLoader
 )
-set_common_target_properties(DiligentFX)
+#set_common_target_properties(DiligentFX)
 
 target_include_directories(DiligentFX
 PUBLIC
@@ -142,4 +142,4 @@ set_target_properties(DiligentFX PROPERTIES
 )
 
 # Create a custom target to run source code formatting validation command
-add_format_validation_target(DiligentFX "${CMAKE_CURRENT_SOURCE_DIR}" DiligentFX)
+#add_format_validation_target(DiligentFX "${CMAKE_CURRENT_SOURCE_DIR}" DiligentFX)
